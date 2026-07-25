@@ -1,0 +1,19 @@
+{
+	"name": "pi-research",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Artifact-first web research tools and research mode for pi",
+	"type": "module",
+	"keywords": ["pi-package", "research", "web-search"],
+	"pi": {
+		"extensions": ["./index.ts"],
+		"prompts": ["./prompts"],
+		"skills": ["./skills"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*",
+		"typebox": "*"
+	}
+}

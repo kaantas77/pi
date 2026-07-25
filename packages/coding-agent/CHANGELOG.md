@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added `examples/extensions/research/` pi package for artifact-first web research: typed Exa `web_search`/`web_fetch`, research ledger tools, citation/coverage verify gate, `/research` prompt template, and `/research-mode`
+- Research package now tracks search-discovered must-fetch URLs, rejects soft placeholder `observed` findings, and fails verify on unfetched discoveries (`research_skip_discovered`, `research_audit`)
+- Research verify uses normalized entity/dimension matching; secondary search hits are not must-fetch; forced partial finalize always prepends a VERIFY FAIL banner to the brief
+
 ### Fixed
 
 - Fixed compaction and branch summaries for providers whose authentication resolves entirely to request headers ([#5871](https://github.com/earendil-works/pi/issues/5871))

@@ -43,6 +43,7 @@ cp permission-gate.ts ~/.pi/agent/extensions/
 | `truncated-tool.ts` | Wraps ripgrep with proper output truncation (50KB/2000 lines) |
 | `ssh.ts` | Delegate all tools to a remote machine via SSH using pluggable operations |
 | `subagent/` | Delegate tasks to specialized subagents with isolated context windows |
+| `research/` | Artifact-first web research package: Exa `web_search`/`web_fetch`, research ledger tools, verify gate, `/research` prompt, `/research-mode` |
 
 ### Commands & UI
 
